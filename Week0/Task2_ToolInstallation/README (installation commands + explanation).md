@@ -33,12 +33,8 @@ make config-gcc
 make
 sudo make install
 
----
-
-### **3. Repeat for Each Tool**
-```markdown
-### 2. Icarus Verilog (Iverilog)
-**Description:** Iverilog is a Verilog simulation and synthesis tool.
+**### 2. Icarus Verilog (Iverilog)
+****Description:** Iverilog is a Verilog simulation and synthesis tool.
 
 **Installation Commands:**
 ```bash
