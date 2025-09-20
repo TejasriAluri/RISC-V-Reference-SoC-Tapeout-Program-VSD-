@@ -113,6 +113,7 @@ sudo usermod -aG docker $USER
 sudo reboot   # After reboot
 docker run hello-world
 ````
+![Docker Installation](snapshots/docker.png)
 
 -----------------------------------------------------------------------------------------
 ### Check Dependencies:
