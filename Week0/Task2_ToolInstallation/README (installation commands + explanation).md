@@ -31,6 +31,9 @@ sudo make install
 
 **Version Check**
 yosys -V
-*Snapshot*
-<img width="819" height="611" alt="yosys" src="https://github.com/user-attachments/assets/023423d4-1de2-41b3-8798-aec8fa3565b1" />
+
+### 2️⃣ Icarus Verilog (iverilog)
+**Installation Steps**
+
+
 
