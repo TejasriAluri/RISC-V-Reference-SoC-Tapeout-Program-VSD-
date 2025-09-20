@@ -33,7 +33,8 @@ make config-gcc
 make
 sudo make install
 ````
-![alt text] <img width="819" height="611" alt="yosys" src="https://github.com/user-attachments/assets/d9dc5f63-25da-4bbc-a6ee-c6ca55acd506" />
+![Yosys Installation](snapshots/yosys.png)
+
 
 
 
