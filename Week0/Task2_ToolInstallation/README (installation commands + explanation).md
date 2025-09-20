@@ -28,38 +28,9 @@ libboost-filesystem-dev zlib1g-dev
 make config-gcc
 make
 sudo make install
-2️⃣ Icarus Verilog (iverilog)
-sudo apt-get install iverilog
-3️⃣ GTKWave
-sudo apt install gtkwave
-4️⃣ Ngspice
-tar -zxvf ngspice-37.tar.gz
-cd ngspice-37
-mkdir release
-cd release
-../configure --with-x --with-readline=yes --disable-debug
-make
-sudo make install
-5️⃣ Magic
-sudo apt install m4 tcsh csh libx11-dev tcl-dev tk-dev \
-libcairo2-dev mesa-common-dev libglu1-mesa-dev libncurses-dev
-git clone https://github.com/RTimothyEdwards/magic
-cd magic
-./configure
-make
-sudo make install
-6️⃣ OpenLANE + Docker
-sudo apt install docker-ce docker-ce-cli containerd.io
-sudo docker run hello-world
-sudo groupadd docker
-sudo usermod -aG docker $USER
-sudo reboot
-# After reboot:
-docker run hello-world
-Additional Checks
-git --version
-python3 --version
-python3 -m pip --version
-make --version
-python3 -m venv -h
+
+**Version Check**
+yosys -V
+*Snapshot*
+<img width="819" height="611" alt="yosys" src="https://github.com/user-attachments/assets/023423d4-1de2-41b3-8798-aec8fa3565b1" />
 
