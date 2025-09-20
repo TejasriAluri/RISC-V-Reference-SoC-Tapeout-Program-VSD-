@@ -16,12 +16,15 @@ This document provides a summary of the tools installed on my virtual machine as
 https://www.virtualbox.org/wiki/Downloads
 **Tool check**
 **Installed Tools & Installation Steps
-1. Yosys**
-Yosys is an open-source synthesis tool for Verilog.
+### 1. Yosys
+**Description:** Yosys is an open-source synthesis tool for Verilog.
+
+**Installation Commands:**
+```bash
 sudo apt-get update
 git clone https://github.com/YosysHQ/yosys.git
 cd yosys
-sudo apt install make    # If not already installed
+sudo apt install make   # If not already installed
 sudo apt-get install build-essential clang bison flex \
 libreadline-dev gawk tcl-dev libffi-dev git graphviz xdot \
 pkg-config python3 libboost-system-dev libboost-python-dev \
@@ -29,9 +32,3 @@ libboost-filesystem-dev zlib1g-dev
 make config-gcc
 make
 sudo make install
-**2. Icarus Verilog (Iverilog)**
-Iverilog is a Verilog simulation and synthesis tool.
-sudo apt-get update
-sudo apt-get install iverilog
-**3. GTKWave**
-GTKWave is a waveform viewer for simulation results.
