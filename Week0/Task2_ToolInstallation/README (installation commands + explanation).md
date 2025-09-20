@@ -125,8 +125,6 @@ python3 -m pip --version
 make --version
 python3 -m venv -h
 ````
-![dependencies Installation](snapshots/Checkdependencies.png)
-
 ----------------------------------------------------------------------------------------------
 ### Install OpenLANE PDKs & Tools:
 ```bash
