@@ -35,9 +35,6 @@ sudo make install
 ````
 ![Yosys Installation](snapshots/yosys.png)
 
-
-
-
 -------------------------------------------------------------------
 ### 2. Icarus Verilog (Iverilog)
 **Description:** Iverilog is a Verilog simulation and synthesis tool.
@@ -47,6 +44,8 @@ sudo make install
 sudo apt-get update
 sudo apt-get install iverilog
 ````
+![Icarus Verilog Installation](snapshots/iverilog.png)
+
 --------------------------------------------------------------------
 ### 3. GTKWave
 **Description:** GTKWave is a waveform viewer for simulation results.
@@ -56,6 +55,8 @@ sudo apt-get install iverilog
 sudo apt-get update
 sudo apt install gtkwave
 ````
+![GTKWave Installation](snapshots/gtkwave.png)
+
 ---------------------------------------------------------------------
 ### 4. NGSpice
 
@@ -72,6 +73,8 @@ cd release
 make
 sudo make install
 ````
+![NGSpice Installation](snapshots/ngspice.png)
+
 ---------------------------------------------------------------------------
 ### 5. Magic VLSI
 
@@ -87,6 +90,8 @@ cd magic
 make
 sudo make install
 ````
+![magic Installation](snapshots/magic.png)
+
 ----------------------------------------------------------------------------
 ### 6. OpenLANE
 
@@ -108,6 +113,7 @@ sudo usermod -aG docker $USER
 sudo reboot   # After reboot
 docker run hello-world
 ````
+
 -----------------------------------------------------------------------------------------
 ### Check Dependencies:
 ```bash
@@ -118,6 +124,9 @@ python3 -m pip --version
 make --version
 python3 -m venv -h
 ````
+
+![Dependencies Installation](snapshots/Additionalchecks.png)
+
 ----------------------------------------------------------------------------------------------
 ### Install OpenLANE PDKs & Tools:
 ```bash
@@ -127,3 +136,5 @@ cd OpenLane
 make
 make test
 ````
+![openLane Installation](snapshots/openlane.png)
+
