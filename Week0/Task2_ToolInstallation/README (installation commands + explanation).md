@@ -32,9 +32,21 @@ libboost-filesystem-dev zlib1g-dev
 make config-gcc
 make
 sudo make install
+````
 -------------------------------------------------------------------
 ### 2. Icarus Verilog (Iverilog)
 **Description:** Iverilog is a Verilog simulation and synthesis tool.
 **Installation Commands:**
-sudo apt-get update  
+```bash
+sudo apt-get update
 sudo apt-get install iverilog
+````
+--------------------------------------------------------------------
+### 3. GTKWave
+**Description:** GTKWave is a waveform viewer for simulation results.
+**Installation Commands:**
+```bash
+sudo apt-get update
+sudo apt install gtkwave
+````
+---------------------------------------------------------------------
